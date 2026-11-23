@@ -1,4 +1,4 @@
-# rivaire-pro
+# Rivaire
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,136 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-rivaire-pro is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://rivaire.pro/
+Rivaire is a private finance tracker and budget planner that helps users monitor spending, track debts, and manage multiple wallets across currencies. It offers offline transaction logging, real‑time insights, and encrypted balances stored locally, with a 12‑word recovery phrase. The service provides free personal finance tools and paid plans for shared workspaces and advanced features.
+
+**Areas:** Finance · PersonalFinance · Budgeting · Privacy · Encryption · Company
+
+## Rivaire on APIs.io
+
+Everything profiled for Rivaire is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/rivaire-pro/](https://apis.io/providers/rivaire-pro/)** — or go straight to one of the APIs or properties below.
+
+### APIs (11)
+
+- [Rivaire Account API](https://apis.io/apis/rivaire-pro/rivaire-pro-account-api/) — The Account API from Rivaire — 3 operation(s) for account.
+- [Rivaire Categories API](https://apis.io/apis/rivaire-pro/rivaire-pro-categories-api/) — The Categories API from Rivaire — 3 operation(s) for categories.
+- [Rivaire Drafts API](https://apis.io/apis/rivaire-pro/rivaire-pro-drafts-api/) — The Drafts API from Rivaire — 2 operation(s) for drafts.
+- [Rivaire Insights API](https://apis.io/apis/rivaire-pro/rivaire-pro-insights-api/) — The Insights API from Rivaire — 2 operation(s) for insights.
+- [Rivaire Planned transactions API](https://apis.io/apis/rivaire-pro/rivaire-pro-planned-transactions-api/) — The Planned transactions API from Rivaire — 2 operation(s) for planned transactions.
+- [Rivaire Recently deleted API](https://apis.io/apis/rivaire-pro/rivaire-pro-recently-deleted-api/) — The Recently deleted API from Rivaire — 2 operation(s) for recently deleted.
+- [Rivaire Recurring series API](https://apis.io/apis/rivaire-pro/rivaire-pro-recurring-series-api/) — The Recurring series API from Rivaire — 2 operation(s) for recurring series.
+- [Rivaire Tags API](https://apis.io/apis/rivaire-pro/rivaire-pro-tags-api/) — The Tags API from Rivaire — 3 operation(s) for tags.
+- [Rivaire Transactions API](https://apis.io/apis/rivaire-pro/rivaire-pro-transactions-api/) — The Transactions API from Rivaire — 3 operation(s) for transactions.
+- [Rivaire Wallets API](https://apis.io/apis/rivaire-pro/rivaire-pro-wallets-api/) — The Wallets API from Rivaire — 2 operation(s) for wallets.
+- [Rivaire Workspaces API](https://apis.io/apis/rivaire-pro/rivaire-pro-workspaces-api/) — The Workspaces API from Rivaire — 1 operation(s) for workspaces.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Rivaire Agentic Access](https://apis.io/agentic-access/rivaire-pro/rivaire-pro-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AccountKeys](https://apis.io/schemas/rivaire-pro/rivaire-pro-account-keys/)
+- [DeletedTransaction](https://apis.io/schemas/rivaire-pro/rivaire-pro-deleted-transaction/)
+- [PlannedTransaction](https://apis.io/schemas/rivaire-pro/rivaire-pro-planned-transaction/)
+- [RecurringSeries](https://apis.io/schemas/rivaire-pro/rivaire-pro-recurring-series/)
+- [Transaction](https://apis.io/schemas/rivaire-pro/rivaire-pro-transaction/)
+- [Wallet](https://apis.io/schemas/rivaire-pro/rivaire-pro-wallet/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Rivaire Pro Context](https://apis.io/jsonld/rivaire-pro/rivaire-pro-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Rivaire API Rules](https://apis.io/rules/rivaire-pro/rivaire-pro-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Rivaire Authentication](https://apis.io/security/rivaire-pro/rivaire-pro-authentication/)
+- [Rivaire Domain Security](https://apis.io/security/rivaire-pro/rivaire-pro-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Rivaire Plans Pricing](https://apis.io/plans/rivaire-pro/rivaire-pro-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://rivaire.pro/)
+- [Pricing](https://rivaire.pro/pricing)
+- [Sign up](https://finance.rivaire.pro/signup)
+- [Terms of service](https://rivaire.pro/legal/terms)
+- [Privacy policy](https://rivaire.pro/legal/privacy)
+
+## API Evangelist rating
+
+**Kin Score 47.1** — developing · rubric 0.27.0 · scored 2026-11-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 58.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 63.7 |
+
+**Agent readiness 57.3** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/rivaire-pro/](https://apis.io/providers/rivaire-pro/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Rivaire: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/rivaire-pro/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
